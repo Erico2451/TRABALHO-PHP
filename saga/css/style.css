@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+.cor{
+    background-color: gray;
+    border-radius: 1.5%;
+}
+.entrar{
+    color:black;
+    border-bottom: 11;
+}
+.cadas{
+    border-bottom: 10;
+}

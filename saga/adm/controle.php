@@ -13,20 +13,19 @@
 </head>
   <body>
       <div class="container-fluid bg-dark text-white p-3">
-    <div class="row">
-        <div class="col text-star">
-            Saga Games
-
+            <div class="row">
+                 <div class="col text-star">
+                     Saga Games
         </div>
-        <div class="col text-end">
+            <div class="col text-end">
 
-         <?php
-            if(!isset($_SESSION)){
+             <?php
+                if(!isset($_SESSION)){
                 session_start(); //iniciando a sessão
-            }
+                }
 
 
-         if(isset($_SESSION['login'])){
+             if(isset($_SESSION['login'])){
             $login = $_SESSION['login'];
             $nome = $_SESSION['nome'];
             $nivel = $_SESSION['nivel'];
@@ -39,17 +38,21 @@
 
               echo "<a href='../adm/logout.php'> Logout </a>";
               
-         }else{
+            }else{
 
-         ?>
+                ?>
 
-            <a href='../adm/login.php'>
-            LOGIN
-</a>
+                <a href='../adm/login.php'>
+                    <div class="entrar">
+                <button> ENTRAR </button>
+                </div>
+                </a>
  | 
-            <a href="../usuario/usuario.php">
-            NÃO POSSOU CADASTRO
-</a>
+                     <a href="../usuario/usuario.php">
+                            <div class="cadas">
+                             <button> CADASTRAR </button>
+                            </div>      
+                   </a>
 <?php } ?>
         </div>
     </div>

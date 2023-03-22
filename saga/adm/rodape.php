@@ -1,7 +1,7 @@
 
 </div>
 
-<div class="container-fluid bg-dark text-white p-3 fixed-bottom">
+<div class="container-fluid bg-dark text-white p-3 mt-5">
     <div class="row">
         <div class="col text-center">
             copyright 2023 - Saga Games

@@ -3,7 +3,7 @@
     $local = "localhost";
     $usuario = "root";
     $senha = "";
-    $banco = "senac";
+    $banco = "saga";
 
     $conexao = mysqli_connect($local,$usuario,$senha,$banco);
 
