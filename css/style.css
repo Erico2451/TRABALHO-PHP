@@ -1,0 +1,62 @@
+img{
+    width: 100%; 
+}
+
+.quadro a img{
+    opacity: 0.5;
+    width: 30%;
+}
+
+.quadro a:hover img{
+    opacity: 1;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:darkgoldenrod;
+}
+.login{ 
+
+    text-align: center;
+  
+    padding: 1rem;
+    background-color: rgb(207, 72, 196);
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+   
+    border: 1px solid rgb(255, 253, 253);
+    height: 400px;
+    width: 600px;
+    padding: 2rem;
+   }
+
+   .usuario{
+
+    text-align: center;
+  
+    padding: 1rem;
+    background-color: rgb(207, 72, 196);
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+   
+    border: 1px solid rgb(255, 253, 253);
+    height: 600px;
+    width: 600px;
+    padding: 2rem;
+
+   }
+
+ 
+
+
+
+
