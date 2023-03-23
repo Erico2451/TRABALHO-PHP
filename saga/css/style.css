@@ -1,14 +1,27 @@
 body{
     background-color: black;
 }
+.logo{
+   margin-top: -1%;
+}
 .cor{
-    background-color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
     border-radius: 1.5%;
+
 }
-.entrar{
-    color:black;
-    border-bottom: 11;
+.botao {
+    background-color:blueviolet;
+    color:white;
+
 }
-.cadas{
-    border-bottom: 10;
+.botao:hover{
+background-color: rgb(100, 18, 177);
+color:white;
+}
+.botao2{
+    background-color: gray;
+}
+.botao2:hover{
+    background-color: rgb(95, 94, 94);
 }

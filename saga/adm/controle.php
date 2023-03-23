@@ -14,9 +14,20 @@
   <body>
       <div class="container-fluid bg-dark text-white p-3">
             <div class="row">
-                 <div class="col text-star">
-                     Saga Games
-        </div>
+                 <div class="col text-star logo">
+                 <img src="../img/logo70.png" alt="">
+                </div>
+                <div class="col text-center">
+                     <div class="search">
+                        <form class="d-flex" role="search">
+                             
+                            <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+                            
+                            <button class="btn botao2" type="submit">Search</button>
+        
+                        </form>
+                    </div>
+                </div>
             <div class="col text-end">
 
              <?php
@@ -41,18 +52,13 @@
             }else{
 
                 ?>
-
-                <a href='../adm/login.php'>
-                    <div class="entrar">
-                <button> ENTRAR </button>
+                
+          
+                
+                <div class="button">
+                    <a href='../adm/login.php'><button type="entrar" class="btn botao">Entrar</button></a>                            | 
+                     <a href="../usuario/usuario.php"><button type="cadastrar" class="btn botao">Cadastrar</button></a>
                 </div>
-                </a>
- | 
-                     <a href="../usuario/usuario.php">
-                            <div class="cadas">
-                             <button> CADASTRAR </button>
-                            </div>      
-                   </a>
 <?php } ?>
         </div>
     </div>

@@ -13,12 +13,21 @@
     <link rel="stylesheet" href="../css/style.css">
     </head>
   <body>
-<div class="container mt-4">
+<div class="container  mt-4">
 
     <div class="row">
-        <div class="col-12 col-md-6 col-lg-3 cor">
-            <h1>exemplo</h1>
+        <div class="col-12 col-md-6 col-lg-3 bg-dark cor">
+            <div class="row mt-5">
+                <div class="col-6 imagem text-end">
+                    <img src="../img/xboxc.png" alt="">
+                </div>
+                <div class="col-6 xbox text-start mt-3">
+                    <h3>Xbox</h3>
+                </div> 
+
+            </div>
         </div>
+                    
 
         <div class="col-12 col-md-6 col-lg-9">
             <div class="row">
