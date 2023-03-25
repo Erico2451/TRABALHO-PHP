@@ -19,13 +19,49 @@
         <div class="col-12 col-md-6 col-lg-3 bg-dark cor">
             <div class="row mt-5">
                 <div class="col-6 imagem text-end">
-                    <img src="../img/xboxc.png" alt="">
+                <a href=''><img src="../img/xboxc.png" alt=""></a>
                 </div>
                 <div class="col-6 xbox text-start mt-3">
                     <h3>Xbox</h3>
                 </div> 
 
             </div>
+            <div class="row mt-5">
+                <div class="col-6 imagem text-end">
+                <a href=''><img src="../img/PLAY.png" alt=""></a>
+                </div>
+                <div class="col-6 xbox text-start mt-3">
+                    <h3>PlayStation</h3>
+                </div> 
+                
+            </div>
+            <div class="row mt-5">
+                <div class="col-6 imagem text-end">
+                <a href=''><img src="../img/Nintendo.png" alt=""></a>
+                </div>
+                <div class="col-6 xbox text-start mt-3">
+                    
+                    <h3>Nintendo</a></h3>
+                </div> 
+                
+            </div>
+            <div class="row mt-5">
+                <div class="col-6 imagem text-end">
+                <a href=''><img src="../img/janela.png" alt=""></a>
+                </div>
+                <div class="col-6 xbox text-start mt-3">
+                    <h3>Windows</h3>
+                </div> 
+                
+            </div>
+            <div class="row mt-5">
+                
+                <div class="col-12 xbox text-center mt-3">
+                <a href='../adm/login.php'><button type="entrar" class="btn botao">QUEM SOMOS</button></a>
+                </div> 
+                
+            </div>
+
         </div>
                     
 
@@ -34,7 +70,7 @@
 
                 <div class="col-12">
 
-                        <div id="carouselExampleIndicators" class="carousel slide">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -42,13 +78,13 @@
                             </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                            <img src="../img/jogos.png" class="d-block w-100" alt="...">
+                            <img src="../img/fortinite.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                            <img src="../img/jogos.png" class="d-block w-100" alt="...">
+                            <img src="../img/fifacarrossel.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                            <img src="../img/jogos.png" class="d-block w-100" alt="...">
+                            <img src="../img/Zeldacarr.jpg" class="d-block w-100" alt="...">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -68,10 +104,32 @@
                         
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="card">
-                        <img src="../img/fifa.png" class="card-img-top" alt="Texto Alternativo">
+                        <img src="../img/halocard.png" class="card-img-top" alt="Texto Alternativo">
                         <div class="card-body">
-                            <h5 class="card-title">JOGOS</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">Halo</h5>
+                            <p class="card-text">Data de Lançamento 15 de novenbro de 2021</p>
+                            <a href="telafortnit.php" class="btn btn-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="../img/Fortnitecard.png" class="card-img-top" alt="Texto Alternativo">
+                        <div class="card-body">
+                            <h5 class="card-title">Fortinite</h5>
+                            <p class="card-text">Data de Lançamento 21 de julho 2017</p>
+                            <a href="#" class="btn btn-primary"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="../img/Zeldacard.png" class="card-img-top" alt="Texto Alternativo">
+                        <div class="card-body">
+                            <h5 class="card-title">Zelda</h5>
+                            <p class="card-text">Data de Lançamento 20 de setembro de 2019</p>
                             <a href="#" class="btn btn-primary">Saiba Mais</a>
                         </div>
                     </div>
@@ -79,32 +137,10 @@
 
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="card">
-                        <img src="../img/fifa.png" class="card-img-top" alt="Texto Alternativo">
+                        <img src="../img/cardfifa.png" class="card-img-top" alt="Texto Alternativo">
                         <div class="card-body">
                             <h5 class="card-title">JOGOS</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Saiba Mais</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <img src="../img/fifa.png" class="card-img-top" alt="Texto Alternativo">
-                        <div class="card-body">
-                            <h5 class="card-title">JOGOS</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Saiba Mais</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <img src="../img/fifa.png" class="card-img-top" alt="Texto Alternativo">
-                        <div class="card-body">
-                            <h5 class="card-title">JOGOS</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Data de Lançamento 27 de setembro de 2021</p>
                             <a href="#" class="btn btn-primary">Saiba Mais</a>
                         </div>
                     </div>

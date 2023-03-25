@@ -1,36 +1,41 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Saga Games</title>
-   
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />  
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="../css/style.css">
 
 </head>
-  <body>
-      <div class="container-fluid bg-dark text-white p-3">
-            <div class="row">
-                 <div class="col text-star logo">
-                 <img src="../img/logo70.png" alt="">
+
+<body>
+    <div class="container-fluid bg-dark text-white p-3">
+        <div class="row">
+            <div class="col text-star logo">
+                
+                <a href='../adm/index.php'> <img src="../img/logo70.png" alt=""></a>
+                
+            </div>
+            <div class="col text-center">
+                <div class="search">
+                    <form class="d-flex" role="search">
+
+                        <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+
+                        <button class="btn botao2" type="submit">Search</button>
+
+                    </form>
                 </div>
-                <div class="col text-center">
-                     <div class="search">
-                        <form class="d-flex" role="search">
-                             
-                            <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
-                            
-                            <button class="btn botao2" type="submit">Search</button>
-        
-                        </form>
-                    </div>
-                </div>
+            </div>
             <div class="col text-end">
 
-             <?php
+                <?php
                 if(!isset($_SESSION)){
                 session_start(); //iniciando a sessão
                 }
@@ -52,15 +57,15 @@
             }else{
 
                 ?>
-                
-          
-                
+
+
+
                 <div class="button">
-                    <a href='../adm/login.php'><button type="entrar" class="btn botao">Entrar</button></a>                            | 
-                     <a href="../usuario/usuario.php"><button type="cadastrar" class="btn botao">Cadastrar</button></a>
+                    <a href='../adm/login.php'><button type="entrar" class="btn botao">Entrar</button></a> |
+                    <a href="../usuario/usuario.php"><button type="cadastrar" class="btn botao">Cadastrar</button></a>
                 </div>
-<?php } ?>
+                <?php } ?>
+            </div>
         </div>
     </div>
-</div>
-<div class="container mt-5">
+    <div class="container mt-5">
