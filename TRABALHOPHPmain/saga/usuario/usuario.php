@@ -1,11 +1,11 @@
 <?php
     include "../adm/controle.php";
 ?>
-             <div class="usuario p-3">
+<div class="usuario p-3 mt-5">
         
         <h1 class='text-center'> </h1>
         <hr>
-        <form name="cadastro" method="post" action="cadastrar_usuarios.php">
+    <form name="cadastro" method="post" action="cadastrar_usuarios.php">
             <div class="mb-3">
                 <label for="nome" class="form-label">Nome</label>
                 <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome Completo" required>
@@ -27,12 +27,8 @@
                 <button type="reset" class="btn btn-secondary">Limpar</button>
                 <button type="submit" class="btn btn-primary">Cadastrar</button>
             </div>
-
-</div>
-
-
-        </form>
-    
+    </form>
+</div>    
 <?php
     include "../adm/rodape.php";
 ?>

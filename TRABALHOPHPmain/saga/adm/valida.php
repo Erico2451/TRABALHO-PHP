@@ -2,7 +2,6 @@
 
 include  "../adm/conexao.php";
 
-
 if(isset($_POST['login'])){
     $login = $_POST['login'];
     $senha = $_POST['senha'];
@@ -41,6 +40,5 @@ if(isset($_POST['login'])){
     }
 
 }
-
 
 ?>

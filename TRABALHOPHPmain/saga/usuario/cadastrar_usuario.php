@@ -1,6 +1,7 @@
 <?php
 
     include "../adm/conexao.php";
+    include "../adm/controle.php";
 
     if(isset($_POST['nome'])){
         //Entrada - coletar os dados do formulário
@@ -55,4 +56,8 @@
     }
     
 
+?>
+
+<?php
+include "../adm/rodape.php";
 ?>

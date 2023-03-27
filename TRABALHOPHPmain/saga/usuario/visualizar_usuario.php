@@ -15,14 +15,8 @@
 
          $nome = $exibe['nome'];
          $senha = $exibe['senha'];
-         $email = $exibe['email'];
-         
- 
-    
-
+         $email = $exibe['email'];         
 ?>
-
-
     <div class="container bg-info p-3 mt-5">
         <div class="text-end">
             <a href="listar_usuario.php">

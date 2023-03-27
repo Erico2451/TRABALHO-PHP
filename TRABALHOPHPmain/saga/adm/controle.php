@@ -10,7 +10,6 @@ integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6
 href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 <link rel="stylesheet" href="../css/style.css">
 </head>
-
 <body>
     <div class="container-fluid bg-dark text-white p-3">
         <div class="row">
@@ -55,8 +54,6 @@ href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wg
 
                 ?>
 
-
-
                 <div class="button">
                     <a href='../adm/login.php'><button type="entrar" class="btn botao">Entrar</button></a> |
                     <a href="../usuario/usuario.php"><button type="cadastrar" class="btn botao">Cadastrar</button></a>
@@ -65,4 +62,4 @@ href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wg
             </div>
         </div>
     </div>
-    <div class="container mt-5">
+   

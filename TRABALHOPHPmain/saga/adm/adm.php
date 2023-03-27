@@ -1,6 +1,5 @@
 <?php
 
-
 include "../adm/controle.php";
 include "../adm/seguranca_adm.php";
 
